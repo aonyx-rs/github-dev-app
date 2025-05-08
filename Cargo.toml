@@ -10,7 +10,7 @@ license = "MIT OR Apache-2.0"
 [dependencies]
 anyhow = "1.0.86"
 askama = { version = "0.12.1", features = ["with-axum"] }
-askama_axum = "0.4.0"
+askama_axum = "0.5.0"
 async-trait = "0.1.80"
 axum = "0.7.5"
 clap = { version = "4.5.7", features = ["derive"] }
