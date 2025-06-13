@@ -583,7 +583,7 @@ dependencies = [
  "predicates",
  "pretty_assertions",
  "reqwest",
- "secrecy 0.8.0",
+ "secrecy",
  "serde",
  "serde_json",
  "tempfile",
@@ -1606,16 +1606,6 @@ checksum = "94143f37725109f92c262ed2cf5e59bce7498c01bcc1502d7b9afe439a4e9f49"
 
 [[package]]
 name = "secrecy"
-version = "0.8.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9bd1c54ea06cfd2f6b63219704de0b9b4f72dcc2b8fdef820be6cd799780e91e"
-dependencies = [
- "serde",
- "zeroize",
-]
-
-[[package]]
-name = "secrecy"
 version = "0.10.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e891af845473308773346dc847b2c23ee78fe442e0472ac50e22a18a93d3ae5a"
@@ -2002,7 +1992,7 @@ checksum = "c25404571f1cf434514f8bca15253b66cee78f61e132f7826326f90a4ea75b18"
 dependencies = [
  "proc-macro2",
  "quote",
- "secrecy 0.10.3",
+ "secrecy",
  "serde",
  "syn",
  "ulid",
