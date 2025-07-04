@@ -1999,9 +1999,9 @@ dependencies = [
 
 [[package]]
 name = "typed-fields"
-version = "0.4.2"
+version = "0.4.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c25404571f1cf434514f8bca15253b66cee78f61e132f7826326f90a4ea75b18"
+checksum = "7d98ce30de291b16f8ac4ffe1b10469e7d916085ca5c8538784412f0ed2dee0e"
 dependencies = [
  "proc-macro2",
  "quote",
